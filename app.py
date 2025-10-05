@@ -11,11 +11,9 @@ import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 import pandas as pd
 import rasterio
-import quiz_page
-from Asteroid_Launcher_Mode import show_launcher_mode
+from notebooks import quiz_page
+from notebooks.Asteroid_Launcher_Mode import show_launcher_mode
 from pathlib import Path
-
-
 
 # ----------------------------
 # Environment Setup
@@ -511,7 +509,7 @@ elif page == "Asteroid Launcher Mode":
     # -----------------------------
 
 elif page == "Impact Simulation":
-    from simulation import run_simulation
+    from notebooks.simulation import run_simulation
     run_simulation(
         gemini_model,
         NASA_API_KEY,
