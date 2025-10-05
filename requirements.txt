@@ -1,6 +1,6 @@
 streamlit
 streamlit-folium
-folium
+folium==0.17.0
 google-generativeai
 fpdf
 python-dotenv
