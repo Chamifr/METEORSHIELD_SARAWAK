@@ -1,0 +1,12 @@
+streamlit
+streamlit-folium
+folium
+google-generativeai
+fpdf
+python-dotenv
+matplotlib
+plotly
+pandas
+rasterio
+requests
+numpy
