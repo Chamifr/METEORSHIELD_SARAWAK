@@ -1,6 +1,5 @@
 import streamlit as st
 import numpy as np
-import folium
 from streamlit_folium import st_folium
 import requests
 import google.generativeai as genai
